@@ -2,26 +2,29 @@ import java.util.Scanner;
 public class Shapes
 {
     void area(int r1)
-{
-    System.out.println("\n Area of circle with radius "+r1+"="+3.14*r1*r1);
-}
+    {
+         System.out.println("\n Area of circle with radius"+r1+"="+3.14*r1*r1);
+
+    }
+   
 void area(int l1,int b1)
 {
-   System.out.println ("\n Area of cuboid is with dimensions "+l2+"x"+b2+"x"+h2+"="+l2*b2*h2);
-   System.out.println ("\n Area of cuboid is with dimensions "+l1+"X"+b1+"="+l1*b1);
+   System.out.println("\n Area of Rectangle with dimension"+l1+"x"+b1+"="+l1*b1);
 }
-
-    System.out.println ("\n Area of cuboid is with dimensions "+l2+"x"+b2+"x"+h2+"="+l2*b2* h2)
-public static void main (string []args)
+void area(int l2,int b2,int h2)
 {
-    Scanner s=new Scanner (system.in);
-    system.out.println("\n Enter the length");
+    System.out.println("\n Area of Cuboid is with dimension"+l2+"x"+b2+"x"+h2+"="+l2*b2*h2);
+}
+public static void main(String[] args)
+{
+    Scanner s=new Scanner(System.in);
+    System.out.println("\n Enter the length");
     int l=s.nextInt();
-    system.out.println("\n Enter the breadth");
+    System.out.println("\n Enter the Breadth");
     int b=s.nextInt();
-    system.out.println("\n Enter the height");
+    System.out.println("\n Enter the Height");
     int h=s.nextInt();
-    system.out.println("\n Enter the radius");
+    System.out.println("\n Enter the Radius");
     int r=s.nextInt();
     Shapes ob=new Shapes();
     ob.area(r);
